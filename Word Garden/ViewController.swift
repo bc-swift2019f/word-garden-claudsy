@@ -45,7 +45,7 @@ class ViewController: UIViewController {
                 revealedWord = revealedWord + " _"
             }
         }
-        revealedWord.removeFirst()
+
         userGuessLabel.text = revealedWord
     }
     
